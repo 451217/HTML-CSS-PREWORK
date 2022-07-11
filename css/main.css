@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 40px;
+}
+
+nav ul{
+    background-color:skyblue;
+    margin: 0;
+    list-style-type: none;
+    width:100%;
+    padding: 15px;
+}
+
+nav{
+    display: block;
+    color:black;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* hero image */
+.hero-image {
+    /* (from w3 school, video seems to copy) linear-gradient darkens background to make text pop */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hawaiibeach.JPG");
+    /*set height*/
+    height: 50%;
+    /*position and center image to scale on all screens*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*set text in middle of the image*/
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+
+/* To do? Add CSS to Center Image of my face.https://www.w3schools.com/howto/howto_css_hero_image.asp */
+
+.portrait{
+    height: 200px; 
+    width: 100;
+    border-radius: 50%;   
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin:auto;
+}
